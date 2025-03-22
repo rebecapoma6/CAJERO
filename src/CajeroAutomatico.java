@@ -88,7 +88,7 @@ public class CajeroAutomatico {
 
     public static void mostrarEstadistica() {
         System.out.println("----------------ESTADÍSTICAS DE USO------------------");
-        System.out.printf("Número total de Ingresos: $%d%n", numeroIngresos);
+        System.out.printf("Número total de Ingresos: %d%n", numeroIngresos);
         System.out.printf("Importe total Ingresado: $%.2f%n", (double) totalIngresos);
         System.out.printf("Número total de Retiradas:%d%n", numeroRetiros);
         System.out.printf("Importe total Retirado: $%.2f%n", (double) totalRetiros);
